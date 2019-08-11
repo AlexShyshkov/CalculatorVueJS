@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculator</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="calculator" id="app">
+			<div class="calculator-display">{{ current || '0'}}</div>
+			<div class="calculator-buttons">
+				<button v-on:click="clearDisplay" class="button clear-btn">C</button>
+				<button v-on:click="setSign" class="button symbol-btn">+/-</button>
+				<button v-on:click="getPercent" class="button symbol-btn">%</button>
+				<button v-on:click="divide" class="button operator">/</button>
+
+				<button v-on:click="appendSymbol('7')" class="button digit-btn">7</button>
+				<button v-on:click="appendSymbol('8')" class="button digit-btn">8</button>
+				<button v-on:click="appendSymbol('9')" class="button digit-btn">9</button>
+				<button v-on:click="multiply" class="button operator">*</button>
+
+				<button v-on:click="appendSymbol('4')" class="button digit-btn">4</button>
+				<button v-on:click="appendSymbol('5')" class="button digit-btn">5</button>
+				<button v-on:click="appendSymbol('6')" class="button digit-btn">6</button>
+				<button v-on:click="subtract" class="button operator">-</button>
+
+				<button v-on:click="appendSymbol('1')" class="button digit-btn">1</button>
+				<button v-on:click="appendSymbol('2')" class="button digit-btn">2</button>
+				<button v-on:click="appendSymbol('3')" class="button digit-btn">3</button>
+				<button v-on:click="add" class="button operator">+</button>
+
+				<button v-on:click="appendSymbol('0')" class="button zero-btn digit-btn">0</button>
+				<button v-on:click="setDot" class="button symbol-btn">.</button>					
+				<button v-on:click="getResult" class="button operator">=</button>
+			</div>
+		</div>
+		<script src="https://unpkg.com/vue@2.6.10"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
