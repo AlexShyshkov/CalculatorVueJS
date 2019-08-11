@@ -19,8 +19,8 @@ Sublime text - text editor for code, markup. Running in the MS Windows enviromen
 
 ### Functionality
 Interface contains from: calculator display, buttons with digits, buttons with arythmetic operations.
-![alt interface]
-(https://github.com/AlexShyshkov/CalculatorVueJS/blob/master/image/app-image.png?raw=true)
+
+![alt interface](https://github.com/AlexShyshkov/CalculatorVueJS/blob/master/image/app-image.png?raw=true)
 All buttons have a style for active, when pressing buttons.
-![alt active_button]
-(https://github.com/AlexShyshkov/CalculatorVueJS/blob/master/image/active-button.png?raw=true)
+
+![alt active_button] (https://github.com/AlexShyshkov/CalculatorVueJS/blob/master/image/active-button.png?raw=true)
