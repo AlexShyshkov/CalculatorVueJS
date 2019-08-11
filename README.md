@@ -13,7 +13,9 @@ image              | Folder with application screenshots
 ----------------------------------------
 Built with
 ----------------------------------------
-Sublime text - text editor for code, markup. Running in the MS Windows enviroment.
+Sublime text - text editor for code, markup. 
+Running in the MS Windows enviroment.
+Application using Vue.js version 2.6.10. Framework loading by CDN-link https://unpkg.com/vue@2.6.10
 
 ----------------------------------------
 
